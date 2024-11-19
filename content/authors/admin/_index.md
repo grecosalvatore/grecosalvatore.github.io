@@ -85,12 +85,23 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research Intern
+    company_name: Nokia Bell Labs
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-06-01
+    date_end: 2023-09-01
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: Nokia Bell Labs
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-06-06
+    date_end: 2022-09-06
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -99,7 +110,7 @@ work:
   - position: Information Technology Analyst
     company_name: Intesa San Paolo
     company_url: 'https://www.intesasanpaolo.com/'
-    company_logo: 'isp-logo.png'
+    company_logo: isp-logo.png
     date_start: 2019-02-01
     date_end: 2020-10-31
     summary: |
