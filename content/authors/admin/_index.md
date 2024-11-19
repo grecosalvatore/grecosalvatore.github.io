@@ -6,12 +6,12 @@ title: 吳健雄
 name_pronunciation: Salvatore Greco
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Salvatore
+last_name: Grec0
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💻
 
 # Is this the primary user of the site?
 superuser: true
