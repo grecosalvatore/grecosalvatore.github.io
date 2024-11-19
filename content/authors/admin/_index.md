@@ -31,10 +31,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:salvatore_greco@polito.it'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://x.com/_salvatoregreco
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
