@@ -6,15 +6,14 @@ title: 'DriftLens: A Concept Drift Detection Tool'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Salvatore Greco
-  - Ke Zhou 
-  - Licia Capra
+  - Bartolomeo Vacchetti
+  - Daniele Apitelli
   - Tania Cerquitelli
-  - Daniele Quercia
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
 
 date: '2024-07-01T00:00:00Z'
 doi: '10.1145/3686924'
@@ -31,7 +30,7 @@ publication_types: ['paper-conference']
 publication: Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2
 publication_short: CSCW
 
-abstract: AI regulations are expected to prohibit machine learning models from using sensitive attributes during training. However, the latest Natural Language Processing (NLP) classifiers, which rely on deep learning, operate as black-box systems, complicating the detection and remediation of such misuse. Traditional bias mitigation methods in NLP aim for comparable performance across different groups based on attributes like gender or race but fail to address the underlying issue of reliance on protected attributes. To partly fix that, we introduce NLPGuard, a framework for mitigating the reliance on protected attributes in NLP classifiers. NLPGuard takes an unlabeled dataset, an existing NLP classifier, and its training data as input, producing a modified training dataset that significantly reduces dependence on protected attributes without compromising accuracy. NLPGuard is applied to three classification tasks:\ identifying toxic language, sentiment analysis, and occupation classification. Our evaluation shows that current NLP classifiers heavily depend on protected attributes, with up to 23% of the most predictive words associated with these attributes. However, NLPGuard effectively reduces this reliance by up to 79%, while slightly improving accuracy.
+abstract: Concept drift refers to changes in data distribution over time that can lead to performance degradation of deep learning systems. Production models need to be continuously monitored for drift. Detecting concept drift poses significant challenges for deep classifiers working with unstructured data, especially when the true labels for new samples are not available and the data has high dimensionality. In such scenarios, drift detection must be approached using unsupervised methods. This paper presents the demo of a tool that uses an effective unsupervised drift detection technique for deep classifiers on unstructured data, namely DriftLens. The tool enables users to i) experiment with different controlled drift patterns on multiple preloaded text and image classifiers and ii) detect possible drifts on new models and data streams. The recorded demo of the tool, available at https://youtu. be/1R2igFhMD8U, shows how end users can interact with DriftLens and use it to continuously monitor models for concept and data drift.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,21 +39,21 @@ tags:
   - Large Language Models
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/grecosalvatore/nlpguard'
+url_pdf: 'https://openproceedings.org/2024/conf/edbt/paper-239.pdf'
+url_code: 'https://github.com/grecosalvatore/DriftLensDemo'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://social-dynamics.net/nlp-guard/'
+url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: 'https://www.youtube.com/watch?v=1R2igFhMD8U&t=1s'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
