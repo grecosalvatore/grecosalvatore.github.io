@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Research Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Politecnico di Torino
+    url: https://www.polito.it/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -53,7 +53,7 @@ interests:
 
 education:
   - area: PhD Artificial Intelligence
-    institution: Stanford University
+    institution: Politecnico di Torino
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -61,8 +61,8 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: MEng Software Engineering
+    institution: Politecnico di Torino
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
