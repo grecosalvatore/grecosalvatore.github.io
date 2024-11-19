@@ -28,15 +28,20 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: Proceedings of the ACM on Human-Computer Interaction, Volume 8, Issue CSCW2
-publication_short: CSCW
+publication_short: EDBT Demo Track
 
 abstract: Concept drift refers to changes in data distribution over time that can lead to performance degradation of deep learning systems. Production models need to be continuously monitored for drift. Detecting concept drift poses significant challenges for deep classifiers working with unstructured data, especially when the true labels for new samples are not available and the data has high dimensionality. In such scenarios, drift detection must be approached using unsupervised methods. This paper presents the demo of a tool that uses an effective unsupervised drift detection technique for deep classifiers on unstructured data, namely DriftLens. The tool enables users to i) experiment with different controlled drift patterns on multiple preloaded text and image classifiers and ii) detect possible drifts on new models and data streams. The recorded demo of the tool, available at https://youtu. be/1R2igFhMD8U, shows how end users can interact with DriftLens and use it to continuously monitor models for concept and data drift.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A webtool application employing the DriftLens methodology for pre- or user-uploaded use cases.
 
 tags:
-  - Large Language Models
+  - Concept Drift
+  - Data Drift
+  - Robusteness
+  - Unsupervised Concept Drift Detection
+  - NLP
+  - Computer Vision
 
 # Display this page in the Featured widget?
 featured: false

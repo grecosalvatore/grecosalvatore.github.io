@@ -96,17 +96,16 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: Information Technology Analyst
+    company_name: Intesa San Paolo
+    company_url: 'https://www.intesasanpaolo.com/'
+    company_logo: 'isp-logo.png'
+    date_start: 2019-02-01
+    date_end: 2020-10-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - IT Project Management
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
