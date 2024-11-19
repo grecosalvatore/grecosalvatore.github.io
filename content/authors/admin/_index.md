@@ -7,7 +7,7 @@ name_pronunciation: Salvatore Greco
 
 # Full name (for SEO)
 first_name: Salvatore
-last_name: Grec0
+last_name: Greco
 
 # Status emoji
 status:
@@ -36,7 +36,7 @@ profiles:
   - icon: brands/x
     url: https://x.com/_salvatoregreco
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/grecosalvatore_/
   - icon: brands/github
     url: https://github.com/grecosalvatore
   - icon: brands/linkedin
@@ -44,7 +44,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=d8-6Up8AAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-7239-9602
 
 interests:
   - Fairness

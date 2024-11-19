@@ -27,17 +27,21 @@ publication_short: "DMKD"
 abstract: The accuracy and flexibility of Deep Convolutional Neural Networks (DCNNs) have been highly validated over the past years. However, their intrinsic opaqueness is still affecting their reliability and limiting their application in critical production systems, where the black-box behavior is difficult to be accepted. This work proposes EBAnO, an innovative explanation framework able to analyze the decision-making process of DCNNs in image classification by providing prediction-local and class-based model-wise explanations through the unsupervised mining of knowledge contained in multiple convolutional layers. EBAnO provides detailed visual and numerical explanations thanks to two specific indexes that measure the features’ influence and their influence precision in the decision-making process. The framework has been experimentally evaluated, both quantitatively and qualitatively, by (i) analyzing its explanations with four state-of-the-art DCNN architectures, (ii) comparing its results with three state-of-the-art explanation strategies and (iii) assessing its effectiveness and easiness of understanding through human judgment, by means of an online survey. EBAnO has been released as open-source code and it is freely available online.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+summary: A novel explainability technique to explain the predictions of Convolutional Neural networks (CNNs) for image classification.
 tags:
-- Source Themes
+- Explainable Artificial Intelligence
+- Explainability 
+- deep convolutional neural network
+- Image classification
+- Black-box classifier
+
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: 'https://link.springer.com/content/pdf/10.1007/s10618-023-00915-x.pdf'
+url_code: 'https://github.com/EBAnO-Ecosystem/EBAnO-Express'
 url_dataset: ''
 url_poster: ''
 url_project: ''
