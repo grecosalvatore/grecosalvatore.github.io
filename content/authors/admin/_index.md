@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title:
 
 # Name pronunciation (optional)
 name_pronunciation: Salvatore Greco
@@ -38,24 +38,25 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/grecosalvatore
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/salvatore-greco-8a27a5142/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=d8-6Up8AAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
+  - Fairness
+  - Explainable AI
+  - Natural Language Processing
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
   - area: PhD Artificial Intelligence
     institution: Politecnico di Torino
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2020-11-01
+    date_end: 2024-10-28
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -183,4 +184,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Salvatore Greco is a research associate at Politecnico di Torino. His research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
