@@ -182,6 +182,8 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+# About Me
 
-Salvatore Greco is a research associate at Politecnico di Torino. His research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Salvatore Greco is a Research Associate at Politecnico di Torino, where he earned his Ph.D. in Artificial Intelligence in October 2024. His research focuses on advancing fairness, explainability, and robustness in Natural Language Processing, with the goal of creating systems that are both equitable and reliable.
+
+He is currently a visiting researcher at King's College London. Previously, he perfroemd research internship at Nokia Bell Labs during the summers of 2022 and 2023, gaining valuable experience at the intersection of academic and industrial research.
