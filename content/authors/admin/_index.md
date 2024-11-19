@@ -1,6 +1,6 @@
 ---
 # Display name
-title:
+title: Salvatore Greco
 
 # Name pronunciation (optional)
 name_pronunciation: Salvatore Greco
