@@ -62,7 +62,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Software Engineering
+  - area: MEng Computer Engineering
     institution: Politecnico di Torino
     date_start: 2016-01-01
     date_end: 2020-12-31
@@ -73,8 +73,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc Computer Engineering
+    institution: Università di Modena e Reggio Emilia
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
