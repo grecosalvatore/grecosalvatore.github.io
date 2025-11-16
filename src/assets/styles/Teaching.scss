@@ -1,0 +1,127 @@
+.teaching-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+}
+
+.year-icon {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.teaching-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.teaching-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(80, 0, 202, 0.3);
+        border-color: rgba(80, 0, 202, 0.5);
+    }
+
+    .teaching-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        svg {
+            color: #5000ca;
+            flex-shrink: 0;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+    }
+
+    .institution {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .academic-years {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    .year-badge {
+        background: rgba(80, 0, 202, 0.2);
+        border: 1px solid rgba(80, 0, 202, 0.4);
+        padding: 0.3rem 0.8rem;
+        border-radius: 15px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.9);
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+// Light mode support
+.light-mode {
+    .year-icon {
+        color: #5000ca;
+    }
+
+    .teaching-item {
+        background: rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            box-shadow: 0 10px 30px rgba(80, 0, 202, 0.15);
+            border-color: rgba(80, 0, 202, 0.3);
+        }
+
+        .institution {
+            color: rgba(0, 0, 0, 0.9);
+        }
+
+        .year-badge {
+            background: rgba(80, 0, 202, 0.1);
+            border-color: rgba(80, 0, 202, 0.3);
+            color: rgba(0, 0, 0, 0.9);
+        }
+
+        .description {
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}

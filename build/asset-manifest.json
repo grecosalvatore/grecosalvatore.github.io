@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b20e42b0.css",
+    "main.js": "/static/js/main.888e397f.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/me.jpeg": "/static/media/me.5ffcc9158241e9d19d26.jpeg",
+    "static/media/kcl.png": "/static/media/kcl.22a4281dcd447721b9b5.png",
+    "static/media/polito.png": "/static/media/polito.b90aba8ca58545d38c9b.png",
+    "static/media/unimore.png": "/static/media/unimore.983d92b0b6b18ac3a516.png",
+    "index.html": "/index.html",
+    "main.b20e42b0.css.map": "/static/css/main.b20e42b0.css.map",
+    "main.888e397f.js.map": "/static/js/main.888e397f.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b20e42b0.css",
+    "static/js/main.888e397f.js"
+  ]
+}
