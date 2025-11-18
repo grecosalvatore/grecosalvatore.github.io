@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ad42cd56.css",
-    "main.js": "/static/js/main.ec484105.js",
+    "main.js": "/static/js/main.36f25c75.js",
     "static/js/453.c980083f.chunk.js": "/static/js/453.c980083f.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -11,11 +11,11 @@
     "static/media/unimore.png": "/static/media/unimore.983d92b0b6b18ac3a516.png",
     "index.html": "/index.html",
     "main.ad42cd56.css.map": "/static/css/main.ad42cd56.css.map",
-    "main.ec484105.js.map": "/static/js/main.ec484105.js.map",
+    "main.36f25c75.js.map": "/static/js/main.36f25c75.js.map",
     "453.c980083f.chunk.js.map": "/static/js/453.c980083f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad42cd56.css",
-    "static/js/main.ec484105.js"
+    "static/js/main.36f25c75.js"
   ]
 }

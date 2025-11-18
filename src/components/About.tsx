@@ -27,11 +27,11 @@ function About() {
                 </div>
                 <div className="about-stats">
                     <div className="stat-card">
-                        <h2>10+</h2>
+                        <h2>15+</h2>
                         <p>Research Publications</p>
                     </div>
                     <div className="stat-card">
-                        <h2>5+</h2>
+                        <h2>4+</h2>
                         <p>Years in AI Research</p>
                     </div>
                     <div className="stat-card">

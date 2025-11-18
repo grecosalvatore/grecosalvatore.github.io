@@ -15,6 +15,7 @@ function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Research Projects</h1>
+        <p>to do</p>
         {/*
         <div className="projects-grid">
             <div className="project">
