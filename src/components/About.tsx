@@ -10,7 +10,7 @@ function About() {
                     <p className="intro">
                         I'm a Postdoctoral Researcher at the <strong>Centre for Data Futures, King's College London</strong>.
                         My current work focuses on <strong>LLM Uncertainty, Participatory AI, and Trustworthy AI</strong>.
-                        I aim to design AI systems that are not only powerful but also ethical, human-centered, and collaborative—systems that enhance rather than obscure human insight and critical-thinking.
+                        I aim to design AI systems that are not only powerful but also ethical, human-centered, collaborative, and that enhance rather than obscure human insight and critical-thinking.
                     </p>
 
                     <p>
