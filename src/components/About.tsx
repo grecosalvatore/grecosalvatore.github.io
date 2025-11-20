@@ -25,7 +25,7 @@ function About() {
                         I also explored ways to design AI tools that help humans adopt more inclusive language practices.
                     </p>
                 </div>
-                <div className="about-stats">
+                <!--<div className="about-stats">
                     <div className="stat-card">
                         <h2>15+</h2>
                         <p>Research Publications</p>
@@ -38,7 +38,7 @@ function About() {
                         <h2>3</h2>
                         <p>Active Competitions</p>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     );
