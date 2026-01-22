@@ -8,3 +8,4 @@ export { default as Project } from "./Project";
 export { default as Contact } from "./Contact";
 export { default as Teaching } from "./Teaching";
 export { default as Resume } from "./Resume";
+export { default as Thesis } from "./Thesis";
