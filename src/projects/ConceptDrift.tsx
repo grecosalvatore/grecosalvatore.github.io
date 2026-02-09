@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -6,6 +6,10 @@ import '../assets/styles/ProjectPage.scss';
 
 function ConceptDrift() {
     const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const handleBackClick = (e: React.MouseEvent) => {
         e.preventDefault();

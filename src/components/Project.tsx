@@ -1,9 +1,12 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faBalanceScale, faChartLine, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/Project.scss';
 
 function Project() {
+    const navigate = useNavigate();
+
     const projects = [
         {
             id: 'explainable-ai',
@@ -35,8 +38,8 @@ function Project() {
     ];
 
     const handleCardClick = (project: any) => {
-        // Navigate to the project page
-        window.location.href = project.link;
+        // Use React Router navigation
+        navigate(project.link);
     };
 
     return (

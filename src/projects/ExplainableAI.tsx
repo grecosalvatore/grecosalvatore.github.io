@@ -7,6 +7,10 @@ import '../assets/styles/ProjectPage.scss';
 function ExplainableAI() {
     const navigate = useNavigate();
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const handleBackClick = (e: React.MouseEvent) => {
         e.preventDefault();
         navigate('/');
