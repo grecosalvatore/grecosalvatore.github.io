@@ -36,6 +36,31 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="2024 - 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          >
+            <img src={politoLogo} alt="Polito" style={{ position: 'absolute', top: '16px', right: '16px', height: '60px', width: 'auto' }} />
+            <h3 className="vertical-timeline-element-title">Research Associate</h3>
+            <h4 className="vertical-timeline-element-subtitle">Politecnico di Torino, Turin, Italy</h4>
+            <p>
+              NLP for Inclusive Language, Trustworthy AI
+            </p>
+
+            {/* Nested KCL Visiting Period */}
+            <div className="nested-experiences">
+              <div className="nested-experience-item">
+                <div className="nested-content">
+                  <h5 className="nested-title">Visiting Researcher (Sep-Dec 2024)</h5>
+                  <p className="nested-subtitle">King's College London, London, UK</p>
+                  <p className="nested-description">Fairness in NLP</p>
+                </div>
+                <img src={kclLogo} alt="KCL" className="nested-logo" />
+              </div>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="2020 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
@@ -46,6 +71,26 @@ function Timeline() {
             <p>
               Trustworthy AI, Natural Language Processing, Fairness, Explainable AI
             </p>
+
+            {/* Nested Nokia Internships */}
+            <div className="nested-experiences">
+              <div className="nested-experience-item">
+                <div className="nested-content">
+                  <h5 className="nested-title">Research Intern (Summer 2023)</h5>
+                  <p className="nested-subtitle">Nokia Bell Labs, Cambridge, UK</p>
+                  <p className="nested-description">Summer Research Internship</p>
+                </div>
+                <img src={nokiaLogo} alt="Nokia" className="nested-logo" />
+              </div>
+              <div className="nested-experience-item">
+                <div className="nested-content">
+                  <h5 className="nested-title">Research Intern (Summer 2022)</h5>
+                  <p className="nested-subtitle">Nokia Bell Labs, Cambridge, UK</p>
+                  <p className="nested-description">Summer Research Internship</p>
+                </div>
+                <img src={nokiaLogo} alt="Nokia" className="nested-logo" />
+              </div>
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
