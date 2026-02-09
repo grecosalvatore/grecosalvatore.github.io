@@ -1,0 +1,232 @@
+.project-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(16, 18, 59, 0.95) 0%, rgba(10, 10, 30, 0.98) 100%);
+}
+
+.project-hero {
+    background: linear-gradient(135deg,
+        rgba(var(--accent-color-rgb, 139, 92, 246), 0.1) 0%,
+        rgba(var(--accent-color-rgb, 139, 92, 246), 0.05) 100%);
+    padding: 8% 10%;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid var(--accent-color, #8b5cf6);
+
+    .back-button {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        padding: 0.8rem 1.2rem;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.05);
+
+        &:hover {
+            color: var(--accent-color, #8b5cf6);
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(-5px);
+        }
+
+        svg {
+            font-size: 1.2rem;
+        }
+    }
+
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 2rem;
+
+        .hero-icon {
+            font-size: 5rem;
+            color: var(--accent-color, #8b5cf6);
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.8) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 1.6;
+        }
+    }
+}
+
+.project-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5% 10%;
+
+    .project-section {
+        margin-bottom: 4rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            position: relative;
+            padding-bottom: 0.8rem;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 60px;
+                height: 3px;
+                background: var(--accent-color, #8b5cf6);
+            }
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                font-size: 1.1rem;
+                line-height: 1.8;
+                color: rgba(255, 255, 255, 0.85);
+                margin-bottom: 1rem;
+                padding-left: 2rem;
+                position: relative;
+
+                &::before {
+                    content: '▸';
+                    position: absolute;
+                    left: 0;
+                    color: var(--accent-color, #8b5cf6);
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+// Light mode support
+.light-mode {
+    .project-page {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    .project-hero {
+        .back-button {
+            color: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.05);
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.08);
+            }
+        }
+
+        .hero-content {
+            h1 {
+                background: linear-gradient(135deg, #000 0%, rgba(0, 0, 0, 0.8) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .hero-subtitle {
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+
+    .project-content .project-section {
+        h2 {
+            color: #1a1a1a;
+        }
+
+        p, ul li {
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+// Responsive design
+@media screen and (max-width: 768px) {
+    .project-hero {
+        padding: 15% 5%;
+
+        .back-button {
+            top: 1rem;
+            left: 1rem;
+            font-size: 0.9rem;
+            padding: 0.6rem 1rem;
+
+            span {
+                display: none;
+            }
+        }
+
+        .hero-content {
+            .hero-icon {
+                font-size: 3.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .project-content {
+        padding: 10% 5%;
+
+        .project-section {
+            margin-bottom: 3rem;
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            p, ul li {
+                font-size: 1rem;
+            }
+        }
+    }
+}

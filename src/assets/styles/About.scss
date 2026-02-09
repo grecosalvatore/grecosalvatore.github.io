@@ -114,6 +114,18 @@
             color: rgba(0, 0, 0, 0.8);
         }
     }
+
+    .research-interests {
+        border-top-color: rgba(0, 0, 0, 0.1);
+
+        ul li {
+            color: rgba(0, 0, 0, 0.85);
+
+            strong {
+                color: rgba(0, 0, 0, 0.95);
+            }
+        }
+    }
 }
 
 @media screen {
@@ -143,6 +155,50 @@
 
             p {
                 font-size: 1rem;
+            }
+        }
+    }
+}
+
+.research-interests {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+
+    h2 {
+        font-size: 1.9rem;
+        margin-bottom: 1.2rem;
+        background: linear-gradient(135deg, #5000ca 0%, #8b5cf6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 600;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.85);
+
+            &:before {
+                content: "▸";
+                position: absolute;
+                left: 0;
+                color: #8b5cf6;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+
+            strong {
+                color: rgba(255, 255, 255, 0.95);
+                font-weight: 600;
             }
         }
     }

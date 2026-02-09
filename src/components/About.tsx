@@ -24,6 +24,17 @@ function About() {
                         During my doctoral research, I proposed novel approaches for model explainability, fairness assessment, and concept drift detection in NLP systems—contributing to the broader goal of building more transparent and reliable AI.
                         I also explored ways to design AI tools that help humans adopt more inclusive language practices.
                     </p>
+
+                    <div className="research-interests">
+                        <h2>Research Interests</h2>
+                        <ul>
+                            <li><strong>Trustworthy AI:</strong> Explainability, Transparency, Robustness in Machine Learning Systems</li>
+                            <li><strong>Fairness in NLP:</strong> Bias Detection, Stereotype Mitigation, Inclusive Language Technologies</li>
+                            <li><strong>LLM Uncertainty:</strong> Uncertainty Quantification, Calibration, Human-AI Collaboration</li>
+                            <li><strong>Concept Drift:</strong> Detection and Adaptation in Natural Language Processing Systems</li>
+                            <li><strong>Participatory AI:</strong> Human-Centered Design, Co-Creation, Collaborative Intelligence</li>
+                        </ul>
+                    </div>
                 </div>
                 {/*
                 <div className="about-stats">

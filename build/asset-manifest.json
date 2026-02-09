@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.869d54b9.css",
-    "main.js": "/static/js/main.4aac1ac2.js",
+    "main.css": "/static/css/main.d45a49bf.css",
+    "main.js": "/static/js/main.ba058c73.js",
     "static/js/453.c980083f.chunk.js": "/static/js/453.c980083f.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/nokia.png": "/static/media/nokia.8073ed12bb6969c5d4d0.png",
     "static/media/me.jpeg": "/static/media/me.5ffcc9158241e9d19d26.jpeg",
     "static/media/kcl.png": "/static/media/kcl.22a4281dcd447721b9b5.png",
     "static/media/polito.png": "/static/media/polito.b90aba8ca58545d38c9b.png",
     "static/media/unimore.png": "/static/media/unimore.983d92b0b6b18ac3a516.png",
     "index.html": "/index.html",
-    "main.869d54b9.css.map": "/static/css/main.869d54b9.css.map",
-    "main.4aac1ac2.js.map": "/static/js/main.4aac1ac2.js.map",
+    "main.d45a49bf.css.map": "/static/css/main.d45a49bf.css.map",
+    "main.ba058c73.js.map": "/static/js/main.ba058c73.js.map",
     "453.c980083f.chunk.js.map": "/static/js/453.c980083f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.869d54b9.css",
-    "static/js/main.4aac1ac2.js"
+    "static/css/main.d45a49bf.css",
+    "static/js/main.ba058c73.js"
   ]
 }
