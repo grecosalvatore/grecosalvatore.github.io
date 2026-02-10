@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBalanceScale, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import {faBalanceScale, faArrowLeft, faFileAlt} from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/ProjectPage.scss';
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 function FairnessNLP() {
     const navigate = useNavigate();
@@ -69,9 +70,30 @@ function FairnessNLP() {
 
                 <section className="project-section">
                     <h2>Publications</h2>
-                    <p>
-                        [Add your related publications here]
-                    </p>
+                    <div className="publications-list">
+                        <div className="publication-item">
+                            <div className="publication-number">[1]</div>
+                            <div className="publication-content">
+                                <div className="publication-header">
+                                    <h3>NLPGuard: A Framework for Mitigating the Use of Protected Attributes by NLP Classifiers</h3>
+                                    <span className="publication-year">2024</span>
+                                </div>
+                                <p className="authors">S. Greco, K. Zhou, L. Capra, T. Cerquitelli, D. Quercia</p>
+                                <p className="venue">Proceedings of the ACM on Human-Computer Interaction, vol. 8, CSCW2, pp. 1-25</p>
+                                <div className="publication-links">
+                                    <a href="https://dl.acm.org/doi/abs/10.1145/3686924" target="_blank" rel="noopener noreferrer" className="pub-link">
+                                        <FontAwesomeIcon icon={faFileAlt} />
+                                        <span>Paper</span>
+                                    </a>
+                                    <a href="https://github.com/grecosalvatore/nlpguard" target="_blank" rel="noopener noreferrer" className="pub-link">
+                                        <FontAwesomeIcon icon={faGithub} />
+                                        <span>Code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </section>
             </div>
         </div>
