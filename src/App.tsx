@@ -12,7 +12,7 @@ import {
   Footer,
   Resume,
 } from "./components";
-import { ExplainableAI, FairnessNLP, ConceptDrift } from "./projects";
+import { ExplainableAI, FairnessNLP, ConceptDrift, InclusiveLanguage } from "./projects";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -69,6 +69,12 @@ function App() {
                 <Route path="/concept-drift" element={
                     <div className={mode === 'dark' ? 'dark-mode' : 'light-mode'}>
                         <ConceptDrift />
+                        <Footer />
+                    </div>
+                } />
+                <Route path="/inclusive-language" element={
+                    <div className={mode === 'dark' ? 'dark-mode' : 'light-mode'}>
+                        <InclusiveLanguage />
                         <Footer />
                     </div>
                 } />

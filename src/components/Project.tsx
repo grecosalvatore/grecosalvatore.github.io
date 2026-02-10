@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb, faBalanceScale, faChartLine, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faLightbulb, faBalanceScale, faChartLine, faComments, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -34,6 +34,15 @@ function Project() {
             keywords: ['Drift Detection', 'Model Monitoring', 'Temporal Adaptation', 'Performance Tracking', 'Model Robustness'],
             color: '#3b82f6',
             link: '/concept-drift'
+        },
+        {
+            id: 'inclusive-language',
+            title: 'Inclusive Language',
+            icon: faComments,
+            description: 'Creating technologies and methodologies for assessing and promoting inclusive language across multiple languages, with focus on gender-inclusive communication and bias mitigation.',
+            keywords: ['Language Assessment', 'Gender Inclusivity', 'Multilingual Analysis', 'Bias Mitigation', 'Policy Compliance'],
+            color: '#10b981',
+            link: '/inclusive-language'
         }
     ];
 

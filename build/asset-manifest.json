@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d45a49bf.css",
-    "main.js": "/static/js/main.ba058c73.js",
+    "main.css": "/static/css/main.0304b034.css",
+    "main.js": "/static/js/main.ccab43c2.js",
     "static/js/453.c980083f.chunk.js": "/static/js/453.c980083f.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -11,12 +11,12 @@
     "static/media/polito.png": "/static/media/polito.b90aba8ca58545d38c9b.png",
     "static/media/unimore.png": "/static/media/unimore.983d92b0b6b18ac3a516.png",
     "index.html": "/index.html",
-    "main.d45a49bf.css.map": "/static/css/main.d45a49bf.css.map",
-    "main.ba058c73.js.map": "/static/js/main.ba058c73.js.map",
+    "main.0304b034.css.map": "/static/css/main.0304b034.css.map",
+    "main.ccab43c2.js.map": "/static/js/main.ccab43c2.js.map",
     "453.c980083f.chunk.js.map": "/static/js/453.c980083f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d45a49bf.css",
-    "static/js/main.ba058c73.js"
+    "static/css/main.0304b034.css",
+    "static/js/main.ccab43c2.js"
   ]
 }

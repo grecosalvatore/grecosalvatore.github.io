@@ -4,3 +4,4 @@
 export { default as ExplainableAI } from './ExplainableAI';
 export { default as FairnessNLP } from './FairnessNLP';
 export { default as ConceptDrift } from './ConceptDrift';
+export { default as InclusiveLanguage } from './InclusiveLanguage';
