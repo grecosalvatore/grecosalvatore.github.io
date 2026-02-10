@@ -73,11 +73,11 @@ function Project() {
                         </div>
                         <h2>{project.title}</h2>
                         <p className="project-description">{project.description}</p>
-                        <div className="project-keywords">
+                        {/* <div className="project-keywords">
                             {project.keywords.map((keyword, index) => (
                                 <span key={index} className="keyword-tag">{keyword}</span>
                             ))}
-                        </div>
+                        </div> */}
                         <div className="project-link">
                             <span>Explore Research</span>
                             <FontAwesomeIcon icon={faArrowRight} />
