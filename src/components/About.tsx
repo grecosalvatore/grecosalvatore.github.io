@@ -25,16 +25,36 @@ function About() {
                         I also explored ways to design AI tools that help humans adopt more inclusive language practices.
                     </p>
 
-                    <div className="research-interests">
-                        <h2>Research Interests</h2>
-                        <ul>
-                            <li><strong>Trustworthy AI:</strong> Explainability, Transparency, Robustness in Machine Learning Systems</li>
-                            <li><strong>Fairness in NLP:</strong> Bias Detection, Stereotype Mitigation, Inclusive Language Technologies</li>
-                            <li><strong>LLM Uncertainty:</strong> Uncertainty Quantification, Calibration, Human-AI Collaboration</li>
-                            <li><strong>Concept Drift:</strong> Detection and Adaptation in Natural Language Processing Systems</li>
-                            <li><strong>Participatory AI:</strong> Human-Centered Design, Co-Creation, Collaborative Intelligence</li>
-                        </ul>
-                    </div>
+<div className="research-interests">
+  <h2>Research Interests</h2>
+  <p>
+    My research focuses on building <strong>trustworthy AI systems</strong>, with an emphasis on
+    <strong> Natural Language Processing (NLP)</strong> and developing AI tools for social good.
+    I am particularly interested in the following areas:
+  </p>
+
+  <ul>
+    <li>
+      <strong>Explainable AI (XAI):</strong> Improving transparency and interpretability in AI systems
+    </li>
+    <li>
+      <strong>Fairness:</strong> Evaluating, detecting, and mitigating bias in machine learning models
+    </li>
+    <li>
+      <strong>Robustness:</strong> Ensuring models remain reliable and effective as data and real-world contexts evolve
+    </li>
+    <li>
+      <strong>Uncertainty Quantification:</strong> Measuring and communicating model confidence to support safer decision-making
+    </li>
+    <li>
+      <strong>Human–Computer Interaction (HCI):</strong> Human-centered design, co-creation, and collaborative intelligence
+    </li>
+    <li>
+      <strong>NLP for Inclusivity and Diversity:</strong> Detecting and reducing stereotypes and non-inclusive language in human writing
+    </li>
+  </ul>
+</div>
+
                 </div>
                 {/*
                 <div className="about-stats">
